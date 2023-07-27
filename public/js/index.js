@@ -71,10 +71,22 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value,
   };
-  saveNote(newNote).then(() => {
-    getAndRenderNotes();
-    renderActiveNote();
-  });
+
+  saveNote(newNote)
+    .then(() => {
+      // Save the user's input in the activeNote object
+      activeNote = {
+        ...newNote,
+        id: Date.now().toString(), // Assign a temporary ID (can be replaced with the ID received from the server)
+      };
+
+      getAndRenderNotes();
+      renderActiveNote();
+    })
+    .catch((error) => {
+      // Handle the error appropriately
+      console.error('Error saving note:', error);
+    });
 };
 
 // Delete the clicked note
