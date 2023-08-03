@@ -1,5 +1,15 @@
 const express = require("express");
 const fs = require("fs");
+const path = require('path');
+
+const dbFilePath = 'db/db.json'
+
+if (fs.existsSync(dbFilePath)) {
+
+    const data = fs.readFileSync(dbFilePath, 'utf8');
+} else {
+    console.error("error this file does not exist at the specific path", dbFilePath);
+}
 
 const app = express();
 const PORT = process.env.PORT || 3001
