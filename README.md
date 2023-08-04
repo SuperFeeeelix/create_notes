@@ -11,12 +11,12 @@
   * [License](#license)
   https://opensource.org/licenses/MIT
   ## Description
-  NoteIt is a user-friendly and intuitive note-taking application designed to help users organize and manage their ideas, tasks, and important information. Whether you need to jot down quick thoughts or create detailed notes, NoteIt provides a seamless and efficient platform for capturing and organizing your notes.
+  Create Notes is a user-friendly and intuitive note-taking application designed to help users organize and manage their ideas, tasks, and important information. Whether you need to jot down quick thoughts or create detailed notes, NoteIt provides a seamless and efficient platform for capturing and organizing your notes.
   ## Requirements
   `NPM install`
   express, fs, nodemon, path
   ## Usage
-  node.js, HTML, JavaScript
+  Node.js, HTML, JavaScript
   ## Contact-Me
   * Name - Oswaldo O. Felix Thompson
   * Email - [oswaldo_felix@outlook.com](malito:oswaldo_felix@outlook.com)
