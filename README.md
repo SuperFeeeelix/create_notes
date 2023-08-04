@@ -22,7 +22,9 @@
   * Email - [oswaldo_felix@outlook.com](malito:oswaldo_felix@outlook.com)
   * Github - [superfeeeelix](https://github.com/superfeeeelix/)
   ## Screen-Shot
-  
+  ![2023-08-04](https://github.com/SuperFeeeelix/create_notes/assets/127154412/abb17536-ba08-4727-984f-b2d848811a9a)
+![2023-08-04 (1)](https://github.com/SuperFeeeelix/create_notes/assets/127154412/4a86866c-c243-411c-b5b1-0b3da06afbbf)
+
   ## Video
   
  
